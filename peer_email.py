@@ -27,7 +27,7 @@ and **emails peer faculty** with details of where they need to report.
 # -------------------------------------------------
 # Excel File Path
 # -------------------------------------------------
-FILE_PATH = "Peer_Job_Fixedslots_withoutsecondperson.xlsx"
+FILE_PATH = "Peer_Job_Fixedslots_withoutsecondperson_emails.xlsx"
 
 if not os.path.exists(FILE_PATH):
     st.error("Required Excel file not found.")
